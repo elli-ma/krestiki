@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    height: 210px;
+    width: 210px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border-width: 2;
+    border-color: rgb(123, 20, 118);
+    border-style: solid;
+    height: 70px;
+    width: 70px;
+}
