@@ -3,16 +3,15 @@ body {
     padding: 0;
 }
 
-section {
+.play {
     display: flex;
-    height: 210px;
-    width: 210px;
+    height: 220px;
+    width: 230px;
+    margin: auto;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
 }
 
-div {
+.square {
     border-width: 2;
     border-color: rgb(123, 20, 118);
     border-style: solid;
