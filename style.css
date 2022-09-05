@@ -6,12 +6,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: monospace;
+    color: rgb(48, 48, 48);
+    ;
+}
+
+.Tic {
+    display: flex;
+    flex-direction: column;
 }
 
 .play {
     display: flex;
-    height: 370x;
-    width: 370px;
+    height: 341x;
+    width: 341px;
     margin: auto;
     flex-wrap: wrap;
     font-size: 150%;
@@ -20,7 +27,7 @@ body {
 
 .square {
     border-width: 1;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(48, 48, 48);
     border-style: solid;
     margin: 2%;
     min-height: 100px;
@@ -29,11 +36,29 @@ body {
 }
 
 .square[ход="X"] {
-    color: red;
+    color: rgb(190, 190, 190);
 }
 
 h2 {
-    font-size: 250%;
+    font-size: 3em;
     text-align: center;
     padding: 3%;
+}
+
+button {
+    font-size: 2em;
+    font-family: monospace;
+    width: 140px;
+    margin: 3em;
+    align-self: center;
+    background-color: rgb(190, 190, 190);
+    padding: 0.5em;
+    border: 0;
+    color: rgb(48, 48, 48);
+    ;
+}
+
+button:hover {
+    background-color: rgb(48, 48, 48);
+    color: white;
 }

@@ -1,6 +1,3 @@
-// @ts-check
-
-
 //// МОДЕЛЬ ИГРЫ
 // Создаём Игру
 function createNewGrid() {
@@ -29,7 +26,7 @@ function startGame() {
     }
 
     function newDomGrid() {
-        /// Создаём обший массив квадратиков
+        /// Создаём общий массив квадратиков
         return createNewGrid().map((row, rowIndex) => {
             return row.map((square, squareIndex) => {
                 /// Создаём Новый Элемент/Квадратик
@@ -49,7 +46,7 @@ function startGame() {
                         console.table(gameGrid)
                         elem.innerText = currentPlayer;
                         elem.setAttribute("ход", currentPlayer)
-                            /// Теперь следущий игрок должнын быть или "Х" или "О"
+                            /// Теперь следущий игрок должен быть или "Х" или "О"
                         currentPlayer = currentPlayer == "X" ? "O" : "X";
 
                         // Проверяем Горизонтальные
